@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525E44FA2975A71000ED0251 /* FinalyticaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E44F92975A71000ED0251 /* FinalyticaApp.swift */; };
+		525E44FC2975A71000ED0251 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E44FB2975A71000ED0251 /* ContentView.swift */; };
+		525E44FE2975A71200ED0251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525E44FD2975A71200ED0251 /* Assets.xcassets */; };
+		525E45012975A71200ED0251 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525E45002975A71200ED0251 /* Preview Assets.xcassets */; };
+		525E450B2975A71300ED0251 /* FinalyticaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E450A2975A71300ED0251 /* FinalyticaTests.swift */; };
+		525E45152975A71300ED0251 /* FinalyticaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E45142975A71300ED0251 /* FinalyticaUITests.swift */; };
+		525E45172975A71300ED0251 /* FinalyticaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E45162975A71300ED0251 /* FinalyticaUITestsLaunchTests.swift */; };
+		525E45242975B7C700ED0251 /* ListWelcomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E45232975B7C700ED0251 /* ListWelcomeCell.swift */; };
+		528515F9297B1411002B5DC3 /* FavoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528515F8297B1411002B5DC3 /* FavoritesCell.swift */; };
+		52BCFF0E2977501400CEACB7 /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCFF0D2977501400CEACB7 /* HomeList.swift */; };
+		52BCFF112977535600CEACB7 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCFF102977535600CEACB7 /* AppColors.swift */; };
+		52BCFF1329775AAF00CEACB7 /* IndiciesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCFF1229775AAF00CEACB7 /* IndiciesCell.swift */; };
+		52BCFF1A2977721C00CEACB7 /* IndiciesAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCFF192977721C00CEACB7 /* IndiciesAdd.swift */; };
+		52BCFF1C2977DBBE00CEACB7 /* HomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCFF1B2977DBBE00CEACB7 /* HomePageModel.swift */; };
+		52BCFF1E2977DBFE00CEACB7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCFF1D2977DBFE00CEACB7 /* ModelData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525E45072975A71300ED0251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525E44EE2975A71000ED0251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525E44F52975A71000ED0251;
+			remoteInfo = Finalytica;
+		};
+		525E45112975A71300ED0251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525E44EE2975A71000ED0251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525E44F52975A71000ED0251;
+			remoteInfo = Finalytica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		525E44F62975A71000ED0251 /* Finalytica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finalytica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525E44F92975A71000ED0251 /* FinalyticaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalyticaApp.swift; sourceTree = "<group>"; };
+		525E44FB2975A71000ED0251 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		525E44FD2975A71200ED0251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525E45002975A71200ED0251 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		525E45062975A71300ED0251 /* FinalyticaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalyticaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525E450A2975A71300ED0251 /* FinalyticaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalyticaTests.swift; sourceTree = "<group>"; };
+		525E45102975A71300ED0251 /* FinalyticaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalyticaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525E45142975A71300ED0251 /* FinalyticaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalyticaUITests.swift; sourceTree = "<group>"; };
+		525E45162975A71300ED0251 /* FinalyticaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalyticaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		525E45232975B7C700ED0251 /* ListWelcomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWelcomeCell.swift; sourceTree = "<group>"; };
+		528515F8297B1411002B5DC3 /* FavoritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCell.swift; sourceTree = "<group>"; };
+		52BCFF0D2977501400CEACB7 /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
+		52BCFF102977535600CEACB7 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		52BCFF1229775AAF00CEACB7 /* IndiciesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiciesCell.swift; sourceTree = "<group>"; };
+		52BCFF192977721C00CEACB7 /* IndiciesAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiciesAdd.swift; sourceTree = "<group>"; };
+		52BCFF1B2977DBBE00CEACB7 /* HomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageModel.swift; sourceTree = "<group>"; };
+		52BCFF1D2977DBFE00CEACB7 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525E44F32975A71000ED0251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525E45032975A71300ED0251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525E450D2975A71300ED0251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525E44ED2975A71000ED0251 = {
+			isa = PBXGroup;
+			children = (
+				525E44F82975A71000ED0251 /* Finalytica */,
+				525E45092975A71300ED0251 /* FinalyticaTests */,
+				525E45132975A71300ED0251 /* FinalyticaUITests */,
+				525E44F72975A71000ED0251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		525E44F72975A71000ED0251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525E44F62975A71000ED0251 /* Finalytica.app */,
+				525E45062975A71300ED0251 /* FinalyticaTests.xctest */,
+				525E45102975A71300ED0251 /* FinalyticaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525E44F82975A71000ED0251 /* Finalytica */ = {
+			isa = PBXGroup;
+			children = (
+				525E44F92975A71000ED0251 /* FinalyticaApp.swift */,
+				52BCFF0A29774FA100CEACB7 /* Views */,
+				52BCFF0929774F8000CEACB7 /* Model Data */,
+				52BCFF0F2977533700CEACB7 /* Colors */,
+				525E44FD2975A71200ED0251 /* Assets.xcassets */,
+				525E44FF2975A71200ED0251 /* Preview Content */,
+			);
+			path = Finalytica;
+			sourceTree = "<group>";
+		};
+		525E44FF2975A71200ED0251 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				525E45002975A71200ED0251 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		525E45092975A71300ED0251 /* FinalyticaTests */ = {
+			isa = PBXGroup;
+			children = (
+				525E450A2975A71300ED0251 /* FinalyticaTests.swift */,
+			);
+			path = FinalyticaTests;
+			sourceTree = "<group>";
+		};
+		525E45132975A71300ED0251 /* FinalyticaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				525E45142975A71300ED0251 /* FinalyticaUITests.swift */,
+				525E45162975A71300ED0251 /* FinalyticaUITestsLaunchTests.swift */,
+			);
+			path = FinalyticaUITests;
+			sourceTree = "<group>";
+		};
+		528515F7297B13CC002B5DC3 /* Section 3 */ = {
+			isa = PBXGroup;
+			children = (
+				528515F8297B1411002B5DC3 /* FavoritesCell.swift */,
+			);
+			path = "Section 3";
+			sourceTree = "<group>";
+		};
+		52BCFF0929774F8000CEACB7 /* Model Data */ = {
+			isa = PBXGroup;
+			children = (
+				52BFE78B29B4A2F1000CF5DA /* Home Page */,
+			);
+			path = "Model Data";
+			sourceTree = "<group>";
+		};
+		52BCFF0A29774FA100CEACB7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				525E44FB2975A71000ED0251 /* ContentView.swift */,
+				52BCFF162977718D00CEACB7 /* Home Page */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52BCFF0F2977533700CEACB7 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				52BCFF102977535600CEACB7 /* AppColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		52BCFF162977718D00CEACB7 /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				52BCFF0D2977501400CEACB7 /* HomeList.swift */,
+				52BCFF17297771AF00CEACB7 /* Section 1 */,
+				52BCFF18297771DD00CEACB7 /* Section 2 */,
+				528515F7297B13CC002B5DC3 /* Section 3 */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		52BCFF17297771AF00CEACB7 /* Section 1 */ = {
+			isa = PBXGroup;
+			children = (
+				525E45232975B7C700ED0251 /* ListWelcomeCell.swift */,
+			);
+			path = "Section 1";
+			sourceTree = "<group>";
+		};
+		52BCFF18297771DD00CEACB7 /* Section 2 */ = {
+			isa = PBXGroup;
+			children = (
+				52BCFF192977721C00CEACB7 /* IndiciesAdd.swift */,
+				52BCFF1229775AAF00CEACB7 /* IndiciesCell.swift */,
+			);
+			path = "Section 2";
+			sourceTree = "<group>";
+		};
+		52BFE78B29B4A2F1000CF5DA /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				52BCFF1B2977DBBE00CEACB7 /* HomePageModel.swift */,
+				52BCFF1D2977DBFE00CEACB7 /* ModelData.swift */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525E44F52975A71000ED0251 /* Finalytica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525E451A2975A71300ED0251 /* Build configuration list for PBXNativeTarget "Finalytica" */;
+			buildPhases = (
+				525E44F22975A71000ED0251 /* Sources */,
+				525E44F32975A71000ED0251 /* Frameworks */,
+				525E44F42975A71000ED0251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Finalytica;
+			productName = Finalytica;
+			productReference = 525E44F62975A71000ED0251 /* Finalytica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525E45052975A71300ED0251 /* FinalyticaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525E451D2975A71300ED0251 /* Build configuration list for PBXNativeTarget "FinalyticaTests" */;
+			buildPhases = (
+				525E45022975A71300ED0251 /* Sources */,
+				525E45032975A71300ED0251 /* Frameworks */,
+				525E45042975A71300ED0251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525E45082975A71300ED0251 /* PBXTargetDependency */,
+			);
+			name = FinalyticaTests;
+			productName = FinalyticaTests;
+			productReference = 525E45062975A71300ED0251 /* FinalyticaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		525E450F2975A71300ED0251 /* FinalyticaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525E45202975A71300ED0251 /* Build configuration list for PBXNativeTarget "FinalyticaUITests" */;
+			buildPhases = (
+				525E450C2975A71300ED0251 /* Sources */,
+				525E450D2975A71300ED0251 /* Frameworks */,
+				525E450E2975A71300ED0251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525E45122975A71300ED0251 /* PBXTargetDependency */,
+			);
+			name = FinalyticaUITests;
+			productName = FinalyticaUITests;
+			productReference = 525E45102975A71300ED0251 /* FinalyticaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525E44EE2975A71000ED0251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					525E44F52975A71000ED0251 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					525E45052975A71300ED0251 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 525E44F52975A71000ED0251;
+					};
+					525E450F2975A71300ED0251 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 525E44F52975A71000ED0251;
+					};
+				};
+			};
+			buildConfigurationList = 525E44F12975A71000ED0251 /* Build configuration list for PBXProject "Finalytica" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525E44ED2975A71000ED0251;
+			productRefGroup = 525E44F72975A71000ED0251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525E44F52975A71000ED0251 /* Finalytica */,
+				525E45052975A71300ED0251 /* FinalyticaTests */,
+				525E450F2975A71300ED0251 /* FinalyticaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525E44F42975A71000ED0251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525E45012975A71200ED0251 /* Preview Assets.xcassets in Resources */,
+				525E44FE2975A71200ED0251 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525E45042975A71300ED0251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525E450E2975A71300ED0251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525E44F22975A71000ED0251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BCFF1A2977721C00CEACB7 /* IndiciesAdd.swift in Sources */,
+				525E45242975B7C700ED0251 /* ListWelcomeCell.swift in Sources */,
+				52BCFF1C2977DBBE00CEACB7 /* HomePageModel.swift in Sources */,
+				52BCFF0E2977501400CEACB7 /* HomeList.swift in Sources */,
+				52BCFF1329775AAF00CEACB7 /* IndiciesCell.swift in Sources */,
+				52BCFF112977535600CEACB7 /* AppColors.swift in Sources */,
+				52BCFF1E2977DBFE00CEACB7 /* ModelData.swift in Sources */,
+				525E44FC2975A71000ED0251 /* ContentView.swift in Sources */,
+				525E44FA2975A71000ED0251 /* FinalyticaApp.swift in Sources */,
+				528515F9297B1411002B5DC3 /* FavoritesCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525E45022975A71300ED0251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525E450B2975A71300ED0251 /* FinalyticaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525E450C2975A71300ED0251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525E45172975A71300ED0251 /* FinalyticaUITestsLaunchTests.swift in Sources */,
+				525E45152975A71300ED0251 /* FinalyticaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525E45082975A71300ED0251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525E44F52975A71000ED0251 /* Finalytica */;
+			targetProxy = 525E45072975A71300ED0251 /* PBXContainerItemProxy */;
+		};
+		525E45122975A71300ED0251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525E44F52975A71000ED0251 /* Finalytica */;
+			targetProxy = 525E45112975A71300ED0251 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		525E45182975A71300ED0251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		525E45192975A71300ED0251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525E451B2975A71300ED0251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Finalytica/Preview Content\"";
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.finalytica.Finalytica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525E451C2975A71300ED0251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Finalytica/Preview Content\"";
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.finalytica.Finalytica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		525E451E2975A71300ED0251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.finalytica.FinalyticaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finalytica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Finalytica";
+			};
+			name = Debug;
+		};
+		525E451F2975A71300ED0251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.finalytica.FinalyticaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finalytica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Finalytica";
+			};
+			name = Release;
+		};
+		525E45212975A71300ED0251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.finalytica.FinalyticaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Finalytica;
+			};
+			name = Debug;
+		};
+		525E45222975A71300ED0251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.finalytica.FinalyticaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Finalytica;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525E44F12975A71000ED0251 /* Build configuration list for PBXProject "Finalytica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525E45182975A71300ED0251 /* Debug */,
+				525E45192975A71300ED0251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525E451A2975A71300ED0251 /* Build configuration list for PBXNativeTarget "Finalytica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525E451B2975A71300ED0251 /* Debug */,
+				525E451C2975A71300ED0251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525E451D2975A71300ED0251 /* Build configuration list for PBXNativeTarget "FinalyticaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525E451E2975A71300ED0251 /* Debug */,
+				525E451F2975A71300ED0251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525E45202975A71300ED0251 /* Build configuration list for PBXNativeTarget "FinalyticaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525E45212975A71300ED0251 /* Debug */,
+				525E45222975A71300ED0251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525E44EE2975A71000ED0251 /* Project object */;
+}
